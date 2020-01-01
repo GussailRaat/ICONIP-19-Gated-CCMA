@@ -11,7 +11,13 @@ For the evaluation of our proposed multi-task gated CCMA framerwork, we use benc
 
 -------------------------------------------------------
 ### For MOSEI Dataset:
+
 for trimodal-->>  python trimodal_gated_multitask.py  
+
+-------------------------------------------------------
+
+### Emotion Results Extractor
+
 
 -------------------------------------------------------
 
