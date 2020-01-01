@@ -1,22 +1,21 @@
-# Contextual Inter-modal Attention for Multi-modal Sentiment Analysis
-Contextual inter-modal attention for multi-modal sentiment analysis (https://www.aclweb.org/anthology/D18-1382/)
+## Multi-task Learning for Multi-modal Emotion Recognition and Sentiment Analysis
+Code for the paper [Multi-task Gated Contextual Cross-Modal Attention Framework for Sentiment and Emotion Analysis](https://link.springer.com/chapter/10.1007/978-3-030-36808-1_72) (ICONIP 2019)
 
-For the evaluation of our proposed MMMU approach, we employ two multi-modal benchmark datasets i.e, MOSEI and MOSI. You can download datasets from this link (https://drive.google.com/open?id=1IaErV0XIf8-F23wdOgjMaACYAELxneya).
+For the evaluation of our proposed multi-task gated CCMA framerwork, we use benchmark multi-modal dataset i.e, MOSEI which has both sentiment and emotion classes.
 
-first download the dataset from given link and set the path in the code accordingly.
-make two folder (i) results and (ii) weights
+### Dataset
 
-how to run file:
+* You can download datasets from [here](https://drive.google.com/open?id=1s10Bvmb7mInYof_Aui9y8q29dKmxYiB1).
 
-For MOSEI dataset:
-for trimodal-->>  python trimodal_MOSEI.py  
+* Download the dataset from given link and set the path in the code accordingly make two folder (i) results and (ii) weights.
 
-For MOSI dataset:
-for trimodal-->>  python trimodal_MOSI.py  
+-------------------------------------------------------
+### For MOSEI Dataset:
+for trimodal-->>  python trimodal_gated_multitask.py  
 
-========================
+-------------------------------------------------------
 
---versions--
+### --versions--
 
 python: 2.7
 
